@@ -16,7 +16,7 @@ python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 ## Install the python-ev3 on EV3
 ### Python 2.7
 * ```apt-get update```
-* ```apt-get install virtualenv  virtualenvwrapper python-setuptools python-smbus python-pil```
+* ```apt-get install python-virtualenv  virtualenvwrapper python-smbus python-imaging```
 * ```source /etc/bash_completion.d/virtualenvwrapper```
 * ```mkvirtualenv ev3_py27 --python=python2.7 --system-site-packages```
 * ```workon ev3_py27```
@@ -25,7 +25,7 @@ python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 
 ### Python 3.4
 * ```apt-get update```
-* ```apt-get install virtualenv  virtualenvwrapper python3-setuptools python3-smbus python3-pil```
+* ```apt-get install python-virtualenv  virtualenvwrapper python3-smbus python3-imaging```
 * ```source /etc/bash_completion.d/virtualenvwrapper```
 * ```mkvirtualenv ev3_py34 --python=python3.4 --system-site-packages```
 * ```workon ev3_py34```
