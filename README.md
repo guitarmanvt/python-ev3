@@ -40,7 +40,7 @@ If you don't see ```(env3_pyXX)``` in the terminal prompt, then you must
 activate the virtual environment.
 
 ```bash
-root@ev3dev:~# source ev3_pyXX/bin/activate
+root@ev3dev:~# workon ev3_pyXX
 (env3_pyXX)root@ev3dev:~#
 ```
 Note how the second line starts with ```(env_pyXX)```.
@@ -52,11 +52,11 @@ For more detail about Python virtual environments, see
 
 ## Example
 
-This example is also found in the **examples/medium_motor.py** file.
+This example is similar to the program at **examples/medium_motor.py**
 
 Activate the virtual environment.
 ```bash
-root@ev3dev:~# source env_pyXX/bin/activate
+root@ev3dev:~# workon env_pyXX
 ```
 
 Use the Python Shell to enter this short test program.
