@@ -34,16 +34,16 @@ python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 
 ## Using virtual environments
 
-If you don't see ```(env3_py27)``` in the terminal prompt, then you must 
+The same instructions apply for both the ```ev3_py27``` (Python 2.7) and ```ev3_py34``` virtual environments (Python 3.4).
+
+If you don't see ```(env3_pyXX)``` in the terminal prompt, then you must 
 activate the virtual env.
 
 ```bash
-root@ev3dev:~# source ev3_py27/bin/activate
-(env3_py27)root@ev3dev:~#
+root@ev3dev:~# source ev3_pyXX/bin/activate
+(env3_pyXX)root@ev3dev:~#
 ```
-Note how the second line starts with ```(env_py27)```.
-
-The same instructions apply for the ```ev3_py34``` virtual env (Python 3.4).
+Note how the second line starts with ```(env_pyXX)```.
 
 To exit the virtual env, type ```deactivate```.
 
