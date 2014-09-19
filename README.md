@@ -12,6 +12,8 @@ Current python-ev3 is developed on [ev3dev-jessie-2014-07-12](https://github.com
 ## Both python 2.7 and python 3.4 are supported
 python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 
+Examples and documentations may refer to ```ev3_pyXX```. Substitute ```ev3_py27``` or ```ev3_py34``` depending on which version of Python you are using.
+
 
 ## Install the python-ev3 on EV3
 ### Python 2.7
@@ -34,10 +36,8 @@ python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 
 ## Using virtual environments
 
-The same instructions apply for both the ```ev3_py27``` (Python 2.7) and ```ev3_py34``` virtual environments (Python 3.4).
-
 If you don't see ```(env3_pyXX)``` in the terminal prompt, then you must 
-activate the virtual env.
+activate the virtual environment.
 
 ```bash
 root@ev3dev:~# source ev3_pyXX/bin/activate
@@ -56,14 +56,14 @@ This example is also found in the **examples/medium_motor.py** file.
 
 Activate the virtual environment.
 ```bash
-root@ev3dev:~# source env_py27/bin/activate
+root@ev3dev:~# source env_pyXX/bin/activate
 ```
 
 Use the Python Shell to enter this short test program.
 
 ```python
-(ev3_py27)root@ev3dev:~# python
-Python 2.7.8 (default, Jul  4 2014, 16:59:40)
+(ev3_pyXX)root@ev3dev:~# python
+Python X.Y.Z (default, Jul  4 2014, 16:59:40)
 [GCC 4.9.0] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from ev3.lego import MediumMotor
@@ -80,15 +80,15 @@ To exit the virtual env, type ```deactivate```
 
 There are more example programs in the **examples** folder.
 
-# Activate the virtual env.
-# Run as many example programs as you want. For example:
+1. Activate the virtual env.
+2. Run as many example programs as you want. For example:
 ```bash
-(ev3_py27)root@ev3dev:~# python examples/medium_motor.py 
+(ev3_pyXX)root@ev3dev:~# python examples/medium_motor.py 
 ```
-# Deactivate the virtual env.
+3. Deactivate the virtual env.
 
 ## More devices
-Plese see [```test```](https://github.com/topikachu/python-ev3/tree/master/test) to know how to use other devices.  
+Plese see [```test```](https://github.com/topikachu/python-ev3/tree/master/test) to know how to use other devices.
 To create new sensor class please see [How to create a new sensor class ](https://github.com/topikachu/python-ev3/wiki/How-to-create-a-new-sensor-class)
         
 
