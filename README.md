@@ -80,12 +80,14 @@ To exit the virtual env, type ```deactivate```
 
 There are more example programs in the **examples** folder.
 
-1. Activate the virtual env.
-2. Run as many example programs as you want. For example:
+Activate the virtual env.
+
+Run as many example programs as you want. For example:
 ```bash
 (ev3_pyXX)root@ev3dev:~# python examples/medium_motor.py 
 ```
-3. Deactivate the virtual env.
+
+Deactivate the virtual env.
 
 ## More devices
 Plese see [```test```](https://github.com/topikachu/python-ev3/tree/master/test) to know how to use other devices.
