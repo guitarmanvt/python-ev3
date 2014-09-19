@@ -32,7 +32,35 @@ python-ev3 is tested on the ev3-dev in python2.7 and python3.4.
 * ```easy_install python-ev3```
 * type ```deactive``` to exit
 
+## Using virtual environments
+
+If you don't see ```(env3_py27)``` in the terminal prompt, then you must 
+activate the virtual env.
+
+```bash
+root@ev3dev:~# source ev3_py27/bin/activate
+(env3_py27)root@ev3dev:~#
+```
+Note how the second line starts with ```(env_py27)```.
+
+The same instructions apply for the ```ev3_py34``` virtual env (Python 3.4).
+
+To exit the virtual env, type ```deactivate```.
+
+For more detail about Python virtual environments, see
+[http://docs.python-guide.org/en/latest/dev/virtualenvs/]
+
 ## Example
+
+This example is also found in the **examples/medium_motor.py** file.
+
+Activate the virtual environment.
+```bash
+root@ev3dev:~# source env_py27/bin/activate
+```
+
+Use the Python Shell to enter this short test program.
+
 ```python
 (ev3_py27)root@ev3dev:~# python
 Python 2.7.8 (default, Jul  4 2014, 16:59:40)
@@ -45,7 +73,19 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> d.stop()
 >>> exit()
 ```
+
 To exit the virtual env, type ```deactivate```
+
+## More Examples
+
+There are more example programs in the **examples** folder.
+
+# Activate the virtual env.
+# Run as many example programs as you want. For example:
+```bash
+(ev3_py27)root@ev3dev:~# python examples/medium_motor.py 
+```
+# Deactivate the virtual env.
 
 ## More devices
 Plese see [```test```](https://github.com/topikachu/python-ev3/tree/master/test) to know how to use other devices.  
